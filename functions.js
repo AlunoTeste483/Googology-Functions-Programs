@@ -95,15 +95,3 @@ function NestedFactorial(n, nested) {
 function Ackermann(m, n) {
     return m == 0 ? n+1 : (m > 0 && n == 0 ? Ackermann(m-1, 1) : Ackermann(m-1, Ackermann(m, n-1)));
 }
-
-function teste(valor) {
-    
-    /*if(valor>=0){
-        alert("seu número é maior igual que 0");
-    }
-    else{
-        alert("seu número é menor que 0");
-    }*/
-
-    valor>=0 ? alert("seu número é maior igual que 0") : alert("seu número é menor que 0");
-}
